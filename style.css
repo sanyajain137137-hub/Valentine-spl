@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.slideshow {
+  margin-top: 30px;
+}
+
+.slideshow img {
+  width: 260px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* PASSWORD SCREEN */
+.lock {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lock input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.lock button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  background: white;
+  color: #ff4d6d;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+#error {
+  margin-top: 10px;
+  color: #ffd6e0;
+}
