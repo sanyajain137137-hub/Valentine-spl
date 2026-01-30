@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PASSWORD SCREEN -->
+<div id="lockScreen" class="lock">
+  <h1>🔐 Private</h1>
+  <p>This is only for you, Varad ❤️ Lets see if you can decode the password</p>
+  <input type="password" id="passwordInput" placeholder="Enter password">
+  <button onclick="checkPassword()">Unlock</button>
+  <p id="error"></p>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="content" class="container hidden">
+  <h1 id="title">Loading love...</h1>
+  <p id="message"></p>
+
+  <div class="slideshow">
+    <img id="slide" src="photos/photo1.jpg">
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
