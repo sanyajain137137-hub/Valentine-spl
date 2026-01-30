@@ -85,12 +85,13 @@ function startValentine() {
     }
   }
 
-  // PHOTO SLIDESHOW
+  // PHOTO SLIDESHO
   const photos = [
-    "photos/photo1.jpg",
-    "photos/photo2.jpg",
-    "photos/photo3.jpg",
-    "photos/photo4.jpg"
+    "photo1.jpg.jpg",
+    "photo2.jpg.JPG",
+    "photo3.jpg.JPG",
+    "photo4.jpg.PNG",
+    "photo5.jpg.JPG"
   ];
 
   let index = 0;
