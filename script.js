@@ -87,11 +87,11 @@ function startValentine() {
 
   // PHOTO SLIDESHO
   const photos = [
-    "photo1.jpg.jpg",
-    "photo2.jpg.JPG",
-    "photo3.jpg.JPG",
-    "photo4.jpg.PNG",
-    "photo5.jpg.JPG"
+    "photo1.jpg",
+    "photo2.jpg",
+    "photo3.jpg",
+    "photo4.jpg",
+    "photo5.jpg"
   ];
 
   let index = 0;
